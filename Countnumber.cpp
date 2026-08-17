@@ -5,7 +5,8 @@ void countnumber(int n) {
     for(int i=1; i<=n; i++) {
         cout<<i<<" ";
     }
-}
+} //new
+
 int main() {
    int n;
    cout<<"Enter number :"<<endl;
