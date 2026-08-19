@@ -5,7 +5,7 @@ using namespace std;
     if(n==0 || n==1) {
         return;
     }
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n-1; i++){
         if(v[i]>v[i+1]) {
             swap(v[i], v[i+1]);
         }
